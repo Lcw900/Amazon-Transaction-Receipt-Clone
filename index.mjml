@@ -1,0 +1,233 @@
+<mjml>
+  <mj-head>
+    <mj-title>Amazon Receipt Clone</mj-title>
+    <mj-preview>Preview of my MJML email</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="Arial, sans-serif"></mj-all>
+    </mj-attributes>
+
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </mj-style>
+
+
+    <mj-style inline="inline">
+      .shadow {
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+      }
+
+      .box-shadow {
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.55);
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body padding="0" width="375px" background-color="#FAFAFA">
+    <mj-text width="375px" background-color="#FAFAFA" align="center" font-family="arial, sans-serif" font-weight="600" font-size="24px" text-decoration="underline">
+      Lindsey Alcinay's Amazon Transaction Receipt Clone
+    </mj-text>
+
+
+    <mj-section background-color="#FAFAFA" width="340px">
+      <mj-column css-class="shadow" width="100%" padding="0">
+
+        <!--Amazon Logo-->
+        <mj-section width="100%" padding="0 0" height="83.57px">
+          <mj-column width="100%" padding="24px 0" height="35.57px">
+            <mj-image src="https://images-na.ssl-images-amazon.com/images/G/01/reading/images/amazon.png" href="https://www.amazon.com/?ie=UTF8&ref_=pe_386300_442618370_scr_home" width="110px" height="33.57" padding="0"></mj-image>
+          </mj-column>
+        </mj-section>
+
+        <!--Main Section-->
+        <mj-section css-class="shadow" padding="0" background-color="white" width="340px" max-width="100%" border-width="2px 1px 1px 1px" border-style="solid" border-color="cacaca">
+          <mj-column padding="31px 0">
+
+            <!--Greeting text-->
+            <mj-text align="left" width="284px" height="38px" padding="0px 70px 9px 25px" color="#111111" font-size="18px" font-family="arial, sans-serif" line-height="18px" font-weight="525">
+              Hi Lindsey, your package will arrive:
+            </mj-text>
+
+            <!--Delivery date-->
+            <mj-text padding="0 25px 27px 25px" width="284px" height="24px" align="left" color="#008a00" font-size="22px" font-family="ariel, sans-serif" font-weight="bold" line-height="22px">
+              Sunday, May 28
+            </mj-text>
+
+            <!--Track package button-->
+            <mj-button padding="0" href="https://www.amazon.com/gp/r.html?C=1N85WR5439VWW&amp;K=EL5EHWQR7WD&amp;M=urn:rtn:msg:202312211943493c55a0f193d04ea097dca6151c50p0na&amp;R=341NQI56TONXB&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fyour-account%2Fship-track%3Fie%3DUTF8%26orderId%3D113-3081522-5144209%26packageIndex%3D0%26shipmentId%3DXv3TLW7Mp%26ref_%3Dpe_386300_442618370_scr_pt_track&amp;H=LBIS1HYPKESU6CLDK62PEKFCAIYA&amp;ref_=pe_386300_442618370_scr_pt_track" background-color="#F1C65D" color="#111111" font-size="15px" font-family="Arial, sans-serif" width="340px" height="30px" border-bottom="2px solid #CBCBCB" line-height="25px" text-decoration="none">
+              Track package
+            </mj-button>
+
+            <!--On The Way Section-->
+            <mj-section class="lindsey" padding="26px 10px 0 10px">
+
+              <mj-column padding="0 21px 0 0" align="left" width="49px" height="237px">
+                <mj-image src="https://images-na.ssl-images-amazon.com/images/G/01/img16/email/truck_grey.png" href="https://www.amazon.com/ap/signin?openid.pape.max_auth_age=900&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fprogress-tracker%2Fpackage%2Fref%3Dpe_386300_442618370_scr_pt_asin%3FitemId%3D%26orderId%3D113-3081522-5144209%26_encoding%3DUTF8%26shipmentId%3D256729281099301%26from%3Dgp%26packageIndex%3D0%26path%3D%252Fprogress-tracker%252Fpackage%252Fref%253Dpe_386300_442618370_scr_pt_asin%253FitemId%253D%2526orderId%253D113-3081522-5144209%2526_encoding%253DUTF8%2526shipmentId%253D256729281099301%2526from%253Dgp%2526packageIndex%253D0&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0" align="left" width="27px" height="22px" padding="0">
+                </mj-image>
+
+              </mj-column>
+              <mj-column padding="0 0" width="245px" height="235px">
+                <mj-text padding="0 0" width="245px" height="17px" align="left" color="#868686" font-size="15px" font-weight="bold" font-family="arial, sans-serif" line-height="15px">
+                  ON THE WAY
+                </mj-text>
+                <mj-text padding="10px 0 8px 0" width="243px" height="22px" align="left" color="#111111" font-size="20px" line-height="20px" font-family="arial, sans-serif">
+                  2 items
+                </mj-text>
+                <mj-text padding="0 0" align="left" color="#868686" font-size="15px" font-family="arial, sans-serif" line-height="15px">
+                  Order # 113-3081522-5144209
+                </mj-text>
+                <mj-text padding="8px 0 10px 0" align="left" color="#868686" font-size="15px" font-family="arial, sans-serif" line-height="15px">
+                  An Amazon driver may contact you by text message or call you for help on the day of delivery.
+                </mj-text>
+                <mj-section padding="6px 0" width="245px" height="104px">
+                  <mj-group padding="0">
+                    <mj-column padding="0 0">
+                      <mj-image background-color="red" class="mic" align="center" padding="0" width="80px" height="64px" src="https://m.media-amazon.com/images/I/31N8qVi2OsL._SY80_SX80_.jpg">
+                    </mj-column>
+                    <mj-column padding="0 0">
+                      <mj-image background-color="purple" class="cable" align="left" padding="0" height="80px" width="80px" src="https://m.media-amazon.com/images/I/418SK7FkIJL._SY80_SX80_.jpg">
+                    </mj-column>
+                  </mj-group>
+                </mj-section>
+              </mj-column>
+            </mj-section>
+
+
+            <!--Ship To-->
+            <mj-section padding="20px 10px 0 10px">
+
+              <mj-column padding="0 21px 0 0" align="left" width="49px" height="237px">
+                <mj-image src="https://images-na.ssl-images-amazon.com/images/G/01/img16/email/pin_grey.png" align="left" width="23px" height="28px" padding="0">
+                </mj-image>
+
+              </mj-column>
+              <mj-column padding="6px 0" width="245px" height="235px">
+                <mj-text padding="0 0" width="245px" height="17px" align="left" color="#868686" font-size="15px" font-weight="bold" font-family="arial, sans-serif" line-height="15px">
+                  SHIP TO
+                </mj-text>
+                <mj-text padding="10px 0 8px 0" width="243px" height="22px" align="left" color="#111111" font-size="20px" line-height="25px" font-family="arial, sans-serif">
+                  Lindsey<br>Parlin, NJ
+                </mj-text>
+              </mj-column>
+            </mj-section>
+
+
+            <!--Shipment Total Section-->
+            <mj-section padding="26px 10px 0 10px">
+              <mj-column padding="0 21px 0 0" align="left" width="49px" height="237px">
+                <mj-image src="https://images-na.ssl-images-amazon.com/images/G/01/img16/email/tag-grey.png" align="left" width="23px" height="23px" padding="0">
+                </mj-image>
+
+              </mj-column>
+              <mj-column padding="6px 0" width="245px" height="235px">
+                <mj-text padding="0 0" width="245px" height="17px" align="left" color="#868686" font-size="15px" font-weight="bold" font-family="arial, sans-serif" line-height="15px">
+                  SHIPMENT TOTAL
+                </mj-text>
+                <mj-text color="#0066C0" padding="10px 0 8px 0" width="243px" height="22px" align="left" color="#111111" font-size="20px" line-height="25px" font-family="arial, sans-serif">
+                  $158.85
+                </mj-text>
+              </mj-column>
+            </mj-section>
+
+            <!--Return Section-->
+            <mj-section padding="15px 20px" width="296px">
+              <mj-column padding="0">
+                <mj-text padding="0 0 0 0" width="296" height="17px" color="#868686" font-size="15px" line-height="15px" font-family="arial, sans-serif" align="left">
+                  Return of replace items in <a color="#0066C0" font-size="15px" font-family="arial, sans-serif" text-decoration="none" href="https://www.amazon.com/gp/r.html?C=1N85WR5439VWW&amp;K=EL5EHWQR7WD&amp;M=urn:rtn:msg:202312211943493c55a0f193d04ea097dca6151c50p0na&amp;R=2XDP50MB4720V&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fcss%2Forder-history%3Fie%3DUTF8%26ref_%3Dpe_386300_442618370_scr_yo&amp;H=FWXUQES88Q9SKLUTZEWNBDNNKYWA&amp;ref_=pe_386300_442618370_scr_yo" style="text-decoration: none; color: #0066C0; font-size: 15px; font-family: arial, sans-serif;">Your orders</a>
+                </mj-text>
+                <mj-text padding="22px 0 0 0" width="296" height="32px" color="#868686" font-size="15px" line-height="15px" font-family="arial, sans-serif" align="left">
+                  Learn how to replace your packaging at <a color="#0066C0" font-size="15px" font-family="arial, sans-serif" text-decoration="none" href="https://www.amazon.com/gp/r.html?C=1N85WR5439VWW&amp;K=EL5EHWQR7WD&amp;M=urn:rtn:msg:202312211943493c55a0f193d04ea097dca6151c50p0na&amp;R=2XDP50MB4720V&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fcss%2Forder-history%3Fie%3DUTF8%26ref_%3Dpe_386300_442618370_scr_yo&amp;H=FWXUQES88Q9SKLUTZEWNBDNNKYWA&amp;ref_=pe_386300_442618370_scr_yo" style="text-decoration: none; color: #0066C0; font-size: 15px; font-family: arial, sans-serif;">Amazon Second Chance</a>
+                </mj-text>
+              </mj-column>
+            </mj-section>
+
+            <!--Page Break-->
+            <mj-section align="center" padding="0 0">
+              <mj-column align="center">
+                <mj-text align="center" color="#d6d6d6" height="20px" font-weight="500">
+                  ____________________________________________
+                </mj-text>
+              </mj-column>
+            </mj-section>
+
+            <!--Keep Shopping Section-->
+            <mj-section padding="20px 0 18px 0" padding="10px" align="center">
+              <mj-column padding="0 0 0 0" align="center">
+                <mj-text padding="0 0 0 0" align="center" color="#CC6600" font-size="18px" font-family="Arial, sans-serif" text-decoration="none">
+                  Keep shopping for
+                </mj-text>
+              </mj-column>
+            </mj-section>
+
+            <mj-section padding="0 0" border-top-style="solid" border-top-color="#d6d6d6" border-width="2px 0" width="296px">
+
+              <mj-column width="156px" height="244px">
+                <mj-image width="128px" height="128px" padding="5px 0" src="https://m.media-amazon.com/images/I/71kDI4rfykL._AC_SX128_SY128_SS128_.jpg" href="https://www.amazon.com/GVM-Video-Lighting-Photography-3200K-5600K/dp/B07S5BKBW1/ref=pe_386300_442618370_ci_mcx_mi_sccl_1/133-3440671-7041624/ref=ci_mcx_mi?_encoding=UTF8&pd_rd_i=B07S5BKBW1&pd_rd_w=D35HA&content-id=amzn1.sym.aa7707e8-6668-4703-8ba7-34121100333f%3Aamzn1.symc.54fc3377-3bca-4a3a-9297-605d601e33cd&pf_rd_p=aa7707e8-6668-4703-8ba7-34121100333f&pf_rd_r=HH9AZ64Y7RM99WH29VXJ&pd_rd_wg=quXQ5&pd_rd_r=e4be9c7c-2ef7-4e3a-a784-dba116efc340&th=1"></mj-image>
+                <mj-text width="126.92px" height="35px" padding="15px 0 0px 0" align="center" line-height="20px">
+                  <a width="126.92px" height="35px" href="https://www.amazon.com/gp/r.html?C=1N85WR5439VWW&amp;K=EL5EHWQR7WD&amp;M=urn:rtn:msg:202312211943493c55a0f193d04ea097dca6151c50p0na&amp;R=KF7T55ACMI85&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2FGVM-Video-Lighting-Photography-3200K-5600K%2Fdp%2FB07S5BKBW1%2Fref%3Dpe_386300_442618370_ci_mcx_mi_sccl_1%2F133-3440671-7041624%2Fref%3Dci_mcx_mi%3F_encoding%3DUTF8%26pd_rd_i%3DB07S5BKBW1%26psc%3D1%26pd_rd_w%3DD35HA%26content-id%3Damzn1.sym.aa7707e8-6668-4703-8ba7-34121100333f%253Aamzn1.symc.54fc3377-3bca-4a3a-9297-605d601e33cd%26pf_rd_p%3Daa7707e8-6668-4703-8ba7-34121100333f%26pf_rd_r%3DHH9AZ64Y7RM99WH29VXJ%26pd_rd_wg%3DquXQ5%26pd_rd_r%3De4be9c7c-2ef7-4e3a-a784-dba116efc340&amp;H=OC5POH1PRHRIHAHK7QADGATA3YIA&amp;ref_=pe_386300_442618370_ci_mcx_mi_sccl_1" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" style="color:#666666;font-size:13px;font-family:Arial,sans-serif;text-decoration:none;" data-linkindex="10">GVM RGB LED Video Lighting Kit, 800D...</a>
+
+                </mj-text>
+                <mj-text align="center" padding="18px 10px 18px 10px">
+                  <a href="https://www.amazon.com/gp/r.html?C=1N85WR5439VWW&amp;K=EL5EHWQR7WD&amp;M=urn:rtn:msg:202312211943493c55a0f193d04ea097dca6151c50p0na&amp;R=3IPMFHD0EYPAC&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2FGVM-Video-Lighting-Photography-3200K-5600K%2Fdp%2FB07S5BKBW1%2Fref%3Dpe_386300_442618370_ci_mcx_mi_sccl_1%2F133-3440671-7041624%2Fref%3Dci_mcx_mi%3F_encoding%3DUTF8%26pd_rd_i%3DB07S5BKBW1%26psc%3D1%26pd_rd_w%3DD35HA%26content-id%3Damzn1.sym.aa7707e8-6668-4703-8ba7-34121100333f%253Aamzn1.symc.54fc3377-3bca-4a3a-9297-605d601e33cd%26pf_rd_p%3Daa7707e8-6668-4703-8ba7-34121100333f%26pf_rd_r%3DHH9AZ64Y7RM99WH29VXJ%26pd_rd_wg%3DquXQ5%26pd_rd_r%3De4be9c7c-2ef7-4e3a-a784-dba116efc340&amp;H=13LREKNGTGUJWYIA4L5S0R42AD0A&amp;ref_=pe_386300_442618370_ci_mcx_mi_sccl_1" target="_blank" rel="noopener noreferrer" style="text-decoration:none; font-size=: 13px; font-family: Arial, sans-serif; color: #666666;">$359.00</a>
+                  <img src="https://m.media-amazon.com/images/G/01/StreamDEX/prime_badge_small.png" border="0" alt="Prime shipping available" style="margin:0 5px;" width="43px" height="12px">
+                </mj-text>
+              </mj-column>
+
+
+              <mj-column padding="0 0" width="156px" height="244px">
+                <mj-image padding="0 0" height="128px" width="128px" src="https://m.media-amazon.com/images/I/71SAamTGWQL._AC_SX128_SY128_SS128_.jpg"></mj-image>
+                <mj-text width="126.92px" height="35px" padding="20px 10px 15px 10px" align="center" line-height="20px">
+                  <a width="126.92px" height="35px" href="https://www.amazon.com/gp/r.html?C=1N85WR5439VWW&amp;K=EL5EHWQR7WD&amp;M=urn:rtn:msg:202312211943493c55a0f193d04ea097dca6151c50p0na&amp;R=KF7T55ACMI85&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2FGVM-Video-Lighting-Photography-3200K-5600K%2Fdp%2FB07S5BKBW1%2Fref%3Dpe_386300_442618370_ci_mcx_mi_sccl_1%2F133-3440671-7041624%2Fref%3Dci_mcx_mi%3F_encoding%3DUTF8%26pd_rd_i%3DB07S5BKBW1%26psc%3D1%26pd_rd_w%3DD35HA%26content-id%3Damzn1.sym.aa7707e8-6668-4703-8ba7-34121100333f%253Aamzn1.symc.54fc3377-3bca-4a3a-9297-605d601e33cd%26pf_rd_p%3Daa7707e8-6668-4703-8ba7-34121100333f%26pf_rd_r%3DHH9AZ64Y7RM99WH29VXJ%26pd_rd_wg%3DquXQ5%26pd_rd_r%3De4be9c7c-2ef7-4e3a-a784-dba116efc340&amp;H=OC5POH1PRHRIHAHK7QADGATA3YIA&amp;ref_=pe_386300_442618370_ci_mcx_mi_sccl_1" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" style="color:#666666;font-size:13px;font-family:Arial,sans-serif;text-decoration:none;" data-linkindex="10">Logitech Brio 4K Webcam, Ultra 4K HD...</a>
+
+                </mj-text>
+                <mj-text align="center" padding="18px 10px 18px 10px" font-size="13px" font-family="Arial, sans-serif" color="#666666">
+                  <a href="https://www.amazon.com/gp/r.html?C=1N85WR5439VWW&amp;K=EL5EHWQR7WD&amp;M=urn:rtn:msg:202312211943493c55a0f193d04ea097dca6151c50p0na&amp;R=3IPMFHD0EYPAC&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2FGVM-Video-Lighting-Photography-3200K-5600K%2Fdp%2FB07S5BKBW1%2Fref%3Dpe_386300_442618370_ci_mcx_mi_sccl_1%2F133-3440671-7041624%2Fref%3Dci_mcx_mi%3F_encoding%3DUTF8%26pd_rd_i%3DB07S5BKBW1%26psc%3D1%26pd_rd_w%3DD35HA%26content-id%3Damzn1.sym.aa7707e8-6668-4703-8ba7-34121100333f%253Aamzn1.symc.54fc3377-3bca-4a3a-9297-605d601e33cd%26pf_rd_p%3Daa7707e8-6668-4703-8ba7-34121100333f%26pf_rd_r%3DHH9AZ64Y7RM99WH29VXJ%26pd_rd_wg%3DquXQ5%26pd_rd_r%3De4be9c7c-2ef7-4e3a-a784-dba116efc340&amp;H=13LREKNGTGUJWYIA4L5S0R42AD0A&amp;ref_=pe_386300_442618370_ci_mcx_mi_sccl_1" target="_blank" rel="noopener noreferrer" style="text-decoration:none; font-size=: 13px; font-family: Arial, sans-serif; color: #666666;">$128.19</a>
+                  <img src="https://m.media-amazon.com/images/G/01/StreamDEX/prime_badge_small.png" border="0" alt="Prime shipping available" style="margin:0 5px;" width="43px" height="12px">
+                </mj-text>
+              </mj-column>
+            </mj-section>
+
+            <!--Page Break-->
+            <mj-section align="center" padding="0 0">
+              <mj-column align="center">
+                <mj-text align="center" color="#d6d6d6" height="20px" font-weight="500">
+                  ____________________________________________
+                </mj-text>
+              </mj-column>
+            </mj-section>
+
+            <!--Footer Section-->
+            <mj-section padding="10px 10px 10px 10px">
+              <mj-column padding="0 10px">
+                <mj-text padding="0 10px" width="296px" height="79px" font-size="11px" font-family="Arial, sans-serif" color="#868686" line-height="11px">
+                  Unless otherwise noted, items sold by Amazon.com are subject to sales tax in select states in accordance with the applicable laws of that state. If your order contains one or more items from a seller other than Amazon.com, it may be subject to state and local sales tax, depending upon the sellers business policies and the location of their operations. Learn more about
+                  <a href="https://www.amazon.com/gp/r.html?C=1N85WR5439VWW&amp;K=EL5EHWQR7WD&amp;M=urn:rtn:msg:202312211943493c55a0f193d04ea097dca6151c50p0na&amp;R=3BDK14TZKZZXV&amp;T=C&amp;U=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fhelp%2Fcustomer%2Fdisplay.html%3Fie%3DUTF8%26nodeId%3D202029700%26ref_-%3Dscr_help_tax%26ref_%3Dpe_386300_442618370&amp;H=TA8W4CC8U6KTAXVAHHP8U0YTCHSA&amp;ref_=pe_386300_442618370" target="_blank" rel="noopener noreferrer" style="color:#0066C0;text-decoration:none;">tax and seller information</a>.
+                </mj-text>
+
+                <mj-text padding="6px 10px" font-size="11px" font-family="Arial, sans-serif" color="#868686" line-height="11px">
+                  Your invoice can be accessed
+                  <a href="https://www.amazon.com/gp/r.html?C=1N85WR5439VWW&amp;K=EL5EHWQR7WD&amp;M=urn:rtn:msg:202312211943493c55a0f193d04ea097dca6151c50p0na&amp;R=3HIDRYF03QWKQ&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fcss%2Fsummary%2Fprint.html%3Fie%3DUTF8%26orderID%3D113-3081522-5144209%26ref_%3Dpe_386300_442618370_scr_od_invoice&amp;H=CC5AEYDWSGIYUQCPT91PLZRQNP4A&amp;ref_=pe_386300_442618370_scr_od_invoice" target="_blank" rel="noopener noreferrer" style="color:#0066C0;text-decoration:none;">here</a>.
+                </mj-text>
+
+                <mj-text padding="6px 10px" font-size="11px" font-family="Arial, sans-serif" color="#868686" line-height="11px">
+                  One or more items in your shipment was supplied by a different seller than the seller you purchased the item from. Visit
+                  <a href="https://www.amazon.com/gp/r.html?C=1N85WR5439VWW&amp;K=EL5EHWQR7WD&amp;M=urn:rtn:msg:202312211943493c55a0f193d04ea097dca6151c50p0na&amp;R=1ZNS2IO4FHU3B&amp;T=C&amp;U=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fcss%2Forder-history%3Fie%3DUTF8%26ref_%3Dpe_386300_442618370_scr_yo&amp;H=RHWD45KKLEAEVIG9DAD8R0NC64MA&amp;ref_=pe_386300_442618370_scr_yo" target="_blank" rel="noopener noreferrer" style="color:#0066C0;text-decoration:none;">Your Orders</a> from a web browser to see the suppliers of these items on your invoices.
+                </mj-text>
+
+                <mj-text padding="6px 10px" font-size="11px" font-family="Arial, sans-serif" color="#868686" line-height="11px">
+                  This email was sent from a notification-only address that cannot accept incoming email. Do not reply to this message.
+                </mj-text>
+              </mj-column>
+            </mj-section>
+
+
+        </mj-section>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
