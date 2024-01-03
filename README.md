@@ -8,8 +8,7 @@ This GitHub repository contains the source code for a Netflix transaction receip
 Features
 Responsive Design: The email template is crafted using MJML to ensure responsiveness across various devices and email clients.
 Netflix Branding: The template incorporates Netflix branding elements for a cohesive and recognizable look.
-Transaction Details: Clearly presents transaction details such as subscription plan, billing amount, and transaction date.
-Call to Action: Includes a prominent call-to-action button for easy access to the user's Netflix account.
+Transaction Details: Clearly presents transaction details such as billing amount, and transaction date.
 Usage
 Clone the repository:
 
